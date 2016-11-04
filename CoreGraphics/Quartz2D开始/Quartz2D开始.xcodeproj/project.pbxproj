@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35AB26731C2C314500CC2E3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AB26721C2C314500CC2E3B /* main.m */; };
+		35AB26761C2C314500CC2E3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AB26751C2C314500CC2E3B /* AppDelegate.m */; };
+		35AB26791C2C314500CC2E3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AB26781C2C314500CC2E3B /* ViewController.m */; };
+		35AB267E1C2C314500CC2E3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35AB267D1C2C314500CC2E3B /* Assets.xcassets */; };
+		35AB26811C2C314500CC2E3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35AB267F1C2C314500CC2E3B /* LaunchScreen.storyboard */; };
+		35AB268A1C2C337B00CC2E3B /* EasyUse.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AB26891C2C337B00CC2E3B /* EasyUse.m */; };
+		35AB268D1C2C437B00CC2E3B /* CircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AB268C1C2C437B00CC2E3B /* CircleProgressView.m */; };
+		35B29B1F1C2D816600ABE90B /* SectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B29B1E1C2D816600ABE90B /* SectorView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35AB266E1C2C314500CC2E3B /* Quartz2D开始.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quartz2D开始.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35AB26721C2C314500CC2E3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35AB26741C2C314500CC2E3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35AB26751C2C314500CC2E3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35AB26771C2C314500CC2E3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		35AB26781C2C314500CC2E3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		35AB267D1C2C314500CC2E3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35AB26801C2C314500CC2E3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35AB26821C2C314500CC2E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35AB26881C2C337B00CC2E3B /* EasyUse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyUse.h; sourceTree = "<group>"; };
+		35AB26891C2C337B00CC2E3B /* EasyUse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyUse.m; sourceTree = "<group>"; };
+		35AB268B1C2C437A00CC2E3B /* CircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressView.h; sourceTree = "<group>"; };
+		35AB268C1C2C437B00CC2E3B /* CircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressView.m; sourceTree = "<group>"; };
+		35B29B1D1C2D816600ABE90B /* SectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectorView.h; sourceTree = "<group>"; };
+		35B29B1E1C2D816600ABE90B /* SectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectorView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35AB266B1C2C314500CC2E3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35AB26651C2C314500CC2E3B = {
+			isa = PBXGroup;
+			children = (
+				35AB26701C2C314500CC2E3B /* Quartz2D开始 */,
+				35AB266F1C2C314500CC2E3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35AB266F1C2C314500CC2E3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35AB266E1C2C314500CC2E3B /* Quartz2D开始.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35AB26701C2C314500CC2E3B /* Quartz2D开始 */ = {
+			isa = PBXGroup;
+			children = (
+				35AB26741C2C314500CC2E3B /* AppDelegate.h */,
+				35AB26751C2C314500CC2E3B /* AppDelegate.m */,
+				35AB26771C2C314500CC2E3B /* ViewController.h */,
+				35AB26781C2C314500CC2E3B /* ViewController.m */,
+				35AB26881C2C337B00CC2E3B /* EasyUse.h */,
+				35AB26891C2C337B00CC2E3B /* EasyUse.m */,
+				35AB268B1C2C437A00CC2E3B /* CircleProgressView.h */,
+				35AB268C1C2C437B00CC2E3B /* CircleProgressView.m */,
+				35B29B1D1C2D816600ABE90B /* SectorView.h */,
+				35B29B1E1C2D816600ABE90B /* SectorView.m */,
+				35AB267D1C2C314500CC2E3B /* Assets.xcassets */,
+				35AB267F1C2C314500CC2E3B /* LaunchScreen.storyboard */,
+				35AB26821C2C314500CC2E3B /* Info.plist */,
+				35AB26711C2C314500CC2E3B /* Supporting Files */,
+			);
+			path = "Quartz2D开始";
+			sourceTree = "<group>";
+		};
+		35AB26711C2C314500CC2E3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35AB26721C2C314500CC2E3B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35AB266D1C2C314500CC2E3B /* Quartz2D开始 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35AB26851C2C314500CC2E3B /* Build configuration list for PBXNativeTarget "Quartz2D开始" */;
+			buildPhases = (
+				35AB266A1C2C314500CC2E3B /* Sources */,
+				35AB266B1C2C314500CC2E3B /* Frameworks */,
+				35AB266C1C2C314500CC2E3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quartz2D开始";
+			productName = "Quartz2D开始";
+			productReference = 35AB266E1C2C314500CC2E3B /* Quartz2D开始.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35AB26661C2C314500CC2E3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "张永俊";
+				TargetAttributes = {
+					35AB266D1C2C314500CC2E3B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 35AB26691C2C314500CC2E3B /* Build configuration list for PBXProject "Quartz2D开始" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35AB26651C2C314500CC2E3B;
+			productRefGroup = 35AB266F1C2C314500CC2E3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35AB266D1C2C314500CC2E3B /* Quartz2D开始 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35AB266C1C2C314500CC2E3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35AB26811C2C314500CC2E3B /* LaunchScreen.storyboard in Resources */,
+				35AB267E1C2C314500CC2E3B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35AB266A1C2C314500CC2E3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35AB268D1C2C437B00CC2E3B /* CircleProgressView.m in Sources */,
+				35AB26791C2C314500CC2E3B /* ViewController.m in Sources */,
+				35B29B1F1C2D816600ABE90B /* SectorView.m in Sources */,
+				35AB26761C2C314500CC2E3B /* AppDelegate.m in Sources */,
+				35AB26731C2C314500CC2E3B /* main.m in Sources */,
+				35AB268A1C2C337B00CC2E3B /* EasyUse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35AB267F1C2C314500CC2E3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35AB26801C2C314500CC2E3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35AB26831C2C314500CC2E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35AB26841C2C314500CC2E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35AB26861C2C314500CC2E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Quartz2D开始/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhangyongjun.Quartz2D--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		35AB26871C2C314500CC2E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Quartz2D开始/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhangyongjun.Quartz2D--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35AB26691C2C314500CC2E3B /* Build configuration list for PBXProject "Quartz2D开始" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35AB26831C2C314500CC2E3B /* Debug */,
+				35AB26841C2C314500CC2E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35AB26851C2C314500CC2E3B /* Build configuration list for PBXNativeTarget "Quartz2D开始" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35AB26861C2C314500CC2E3B /* Debug */,
+				35AB26871C2C314500CC2E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35AB26661C2C314500CC2E3B /* Project object */;
+}
