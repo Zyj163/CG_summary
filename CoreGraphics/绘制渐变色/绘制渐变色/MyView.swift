@@ -29,6 +29,7 @@ class MyView: UIView {
 
     //线性渐变
     func drawLinearGradient(_ ctx:CGContext?) {
+        ctx?.saveGState()
         //选择颜色空间
         let colorSpace = CGColorSpaceCreateDeviceRGB()
         
@@ -36,7 +37,13 @@ class MyView: UIView {
         //CGContextClipToRect(context, CGRectMake(20, 50, 280, 300));
         //裁切还可以使用UIKit中对应的方法
         UIRectClip(CGRect(x: 20, y: 50, width: 280, height: 300));
-        
+        //对于在基于path中绘制渐变色，可以这样
+//        let path = UIBezierPath()
+//        ctx?.addPath(path.cgPath)
+//        let pathRect = ctx?.boundingBoxOfClipPath
+//        let pathRect = ctx?.boundingBoxOfPath
+//        let pathRect = path.cgPath.boundingBoxOfPath
+//        let pathRect = path.cgPath.boundingBoxOfPath
         
         /*指定渐变色
          space:颜色空间
@@ -61,10 +68,13 @@ class MyView: UIView {
          */
         ctx?.drawLinearGradient(gradient!, start: CGPoint.zero, end: CGPoint(x: bounds.size.width, y: bounds.size.height), options: .drawsBeforeStartLocation)
         
+        ctx?.restoreGState()
     }
     
     //径向渐变
     func drawRadialGradient(_ ctx:CGContext?) {
+        ctx?.saveGState()
+        
         let colorSpace = CGColorSpaceCreateDeviceRGB()
         let gradient = CGGradient(colorsSpace: colorSpace, colors: [UIColor.clear.cgColor, UIColor.green.cgColor, UIColor.red.cgColor] as CFArray, locations: [0.0, 0.3, 1.0])
         /*绘制径向渐变
@@ -78,6 +88,8 @@ class MyView: UIView {
          kCGGradientDrawsAfterEndLocation开始位置之前不进行绘制，但到结束点之后继续填充
          */
         ctx?.drawRadialGradient(gradient!, startCenter: CGPoint(x: 160, y: 284), startRadius: 20, endCenter: CGPoint(x: 165, y: 289), endRadius: 150, options: .drawsBeforeStartLocation)
+        
+        ctx?.restoreGState()
     }
     
 }
